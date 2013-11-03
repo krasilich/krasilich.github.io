@@ -1,0 +1,16 @@
+#body {
+    background-color: #FFFFFF;
+    font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+    font-size: 11px;
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+#main {
+    margin-right: 250px;
+}
+#right {
+    float: right;
+    width: 250px;
+}

@@ -7,7 +7,9 @@
     <link rel="icon"
           type="image/x-icon"
           href="favicon.ico" />
-    <!-- Put this script tag to the <head> of your page -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="style.css" />
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
     <script type="text/javascript">
         VK.init({apiId: 3973234, onlyWidgets: true});
@@ -15,26 +17,55 @@
 </head>
 <body>
     <div id="wrapper">
-        <h3>25 лет!</h3>
-        <p>Всем привет!</p>
-        <p>Как вы уже знаете, в субботу, 9го ноября состоится празднование моего дня рождения!</p>
-        <p>И как всегда с этим знаменательным событием сопряжено две проблемы.</p>
-        <ul>
-            <li>Где отмечаем?</li>
-            <li>Что подарить?</li>
-        </ul>
-        <p>Собственно решением этих двух проблем мы тут и постараемся заняться.</p>
-        <h4>Первое</h4>
-        <div id="vk_poll_1"></div>
-        <script type="text/javascript">
-            VK.Widgets.Poll("vk_poll_1", {width: "300"}, "109826224_201987c5b2af0c98a4");
-        </script>
-        <p>Если нет, то пойдем в культурное заведение =)</p>
-        <h4>Второе</h4>
-        <div id="vk_poll_2"></div>
-        <script type="text/javascript">
-            VK.Widgets.Poll("vk_poll_2", {width: "300"}, "109826911_0e320d3e29a85b7842");
-        </script>
+        <div id="right">
+            <h3>Кто будет?</h3>
+            <div id="vk_subscribe"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe", {}, 12987637);
+            </script>
+            <div id="vk_subscribe_1"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe_1", {}, 12660489);
+            </script>
+            <div id="vk_subscribe_2"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe_2", {}, 9170396);
+            </script>
+            <div id="vk_subscribe_3"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe_3", {}, 11450195);
+            </script>
+            <div id="vk_subscribe_4"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe_4", {}, 5558061);
+            </script>
+            <div id="vk_subscribe_5"></div>
+            <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe_5", {}, 58754895);
+            </script>
+        </div>
+        <div id="main">
+            <h3>25 лет!</h3>
+            <p>Всем привет!</p>
+            <p>Как вы уже знаете, в субботу, 9го ноября состоится празднование моего дня рождения!</p>
+            <p>И как всегда с этим знаменательным событием сопряжено две проблемы.</p>
+            <ul>
+                <li>Где отмечаем?</li>
+                <li>Что подарить?</li>
+            </ul>
+            <p>Собственно решением этих двух проблем мы тут и постараемся заняться.</p>
+            <h4>Первое</h4>
+            <div id="vk_poll_1"></div>
+            <script type="text/javascript">
+                VK.Widgets.Poll("vk_poll_1", {width: "300"}, "109826224_201987c5b2af0c98a4");
+            </script>
+            <p>Если нет, то пойдем в культурное заведение =)</p>
+            <h4>Второе</h4>
+            <div id="vk_poll_2"></div>
+            <script type="text/javascript">
+                VK.Widgets.Poll("vk_poll_2", {width: "300"}, "109826911_0e320d3e29a85b7842");
+            </script>
+        </div>
     </div>
 </body>
 </html>
