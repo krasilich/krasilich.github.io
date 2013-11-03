@@ -5,6 +5,11 @@
     <link rel="icon"
           type="image/png"
           href="favicon.ico" />
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 3973234, onlyWidgets: true});
+    </script>
 </head>
 <body>
     <div id="wrapper">
@@ -17,7 +22,17 @@
             <li>Что подарить?</li>
         </ul>
         <p>Собственно решением этих двух проблем мы тут и постараемся заняться.</p>
-
+        <h4>Первое</h4>
+        <div id="vk_poll_1"></div>
+        <script type="text/javascript">
+            VK.Widgets.Poll("vk_poll_1", {width: "300"}, "109826224_201987c5b2af0c98a4");
+        </script>
+        <p>Если нет, то пойдем в культурное заведение =)</p>
+        <h4>Второе</h4>
+        <div id="vk_poll_2"></div>
+        <script type="text/javascript">
+            VK.Widgets.Poll("vk_poll_2", {width: "300"}, "109826911_0e320d3e29a85b7842");
+        </script>
     </div>
 </body>
 </html>
